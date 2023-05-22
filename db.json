@@ -1,15 +1,10 @@
 {
   "users": [
     {
-      "fname": "Ali",
-      "lastname": "latif",
-      "id": 4,
-      "age": "24242"
-    },
-    {
       "fname": "Amir",
       "lastname": "Rana",
-      "id": 5
+      "id": 5,
+      "age": "43"
     },
     {
       "fname": "john ",
@@ -20,7 +15,7 @@
     {
       "fname": "kami",
       "lastname": "kami",
-      "age": "6566465",
+      "age": "65",
       "id": 7
     },
     {

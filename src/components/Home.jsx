@@ -1,4 +1,5 @@
 import axios from "axios";
+import "./Home.css";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 function Login() {
@@ -37,10 +38,9 @@ function Login() {
     <>
       <h1 style={{ justifyItems: "center" }}>Form Post API</h1>
 
-      <table>
+      <table className="user-table">
         <thead>
           <tr>
-            <th>ID</th>
             <th>Name</th>
             <th>Last Name</th>
             <th>Age</th>
@@ -50,15 +50,19 @@ function Login() {
         <tbody>
           {userData.map((item) => (
             <tr key={item.id}>
-              <td>{item.id}</td>
               <td>{item.fname}</td>
               <td>{item.lastname}</td>
               <td>{item.age}</td>
               <td>
                 <Link to={`/update/${item.id}`}>
-                  <button>Update</button>
+                  <button className="action-button">Update</button>
                 </Link>
-                <button onClick={(e) => handleDelete(item.id)}>Delete</button>
+                <button
+                  className="action-button"
+                  onClick={(e) => handleDelete(item.id)}
+                >
+                  Delete
+                </button>
               </td>
             </tr>
           ))}
@@ -82,7 +86,10 @@ function Login() {
         );
       })} */}
       <Link to="/addnew">
-        <button> ADD New + </button>
+        <button className="action-button" style={{ marginTop: 10 }}>
+          {" "}
+          ADD New +{" "}
+        </button>
       </Link>
       {/* <form onSubmit={submitForm}>
         <input
