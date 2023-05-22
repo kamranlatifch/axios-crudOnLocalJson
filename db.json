@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "fname": "Ali",
+      "lastname": "latif",
+      "id": 4,
+      "age": "24242"
+    },
+    {
+      "fname": "Amir",
+      "lastname": "Rana",
+      "id": 5
+    },
+    {
+      "fname": "john ",
+      "lastname": "Zafar",
+      "age": "32",
+      "id": 6
+    },
+    {
+      "fname": "kami",
+      "lastname": "kami",
+      "age": "6566465",
+      "id": 7
+    },
+    {
+      "fname": "iqbal bhai",
+      "lastname": "azeem",
+      "age": "34",
+      "id": 8
+    },
+    {
+      "fname": "john ",
+      "lastname": "musk",
+      "age": "56",
+      "id": 9
+    }
+  ]
+}
