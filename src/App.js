@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import AddNew from "./components/AddNew";
 import Update from "./components/Update";
+import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
   return (

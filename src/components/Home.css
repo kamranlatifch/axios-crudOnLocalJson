@@ -1,6 +1,7 @@
 .user-table {
     border-collapse: collapse;
-    width: 100%;
+    width: 50%;
+    
   }
   
   .user-table th, .user-table td {
