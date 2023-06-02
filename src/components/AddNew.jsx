@@ -71,7 +71,7 @@ function AddNew() {
     <div className="container d-flex justify-content-center">
       <div className="card w-50 text-center">
         <div className="card-body">
-          <h1 className="card-title">Add New Items</h1>
+          <h1 className="card-title">Please Add New Items</h1>
           <form>
             <div className="mb-3">
               <label htmlFor="fname" className="form-label">
